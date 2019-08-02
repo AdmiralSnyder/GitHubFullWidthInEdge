@@ -1,0 +1,14 @@
+{
+  "author": "AdmiralSnyder",
+  "name": "github-wide",
+  "version": "1.0",
+
+  "description": "makes github use the full width of the screen",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["githubWide.js"]
+    }
+  ]
+}
